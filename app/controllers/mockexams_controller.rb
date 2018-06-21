@@ -53,6 +53,6 @@ class MockexamsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def mockexam_params
-      params.require(:mockexam).permit(:name, :level_id, :subject_id)
+      params.require(:mockexam).permit(:name, :level_id, :subject_id, {:mock_questions => [{:mock_answers => [:mock_question_id, :content], :mock_correct_answers => [:content,:mock_answer_id] } ]})
     end
 end
