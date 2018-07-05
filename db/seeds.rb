@@ -24,3 +24,4 @@ survey = Survey.create! name: "Superhero Questionnaire"
 survey.questions.create! content: "Batman or Superman?"
 survey.questions.create! content: "Spiderman or Flash?"
 survey.questions.create! content: "Aquaman or Green Lantern?"
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?

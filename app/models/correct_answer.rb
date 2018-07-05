@@ -1,3 +1,3 @@
 class CorrectAnswer < ApplicationRecord
-    belongs_to :answer
+    belongs_to :mock_answer
 end

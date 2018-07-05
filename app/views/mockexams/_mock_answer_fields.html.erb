@@ -1,0 +1,10 @@
+<fieldset>
+  <%= f.label :content, "Question" %><br />
+  <%= f.input :content %><br />
+  <%= f.check_box :_destroy %>
+  <%= f.label :_destroy, "Remove Question" %>
+  <%= f.simple_fields_for :mock_correct_answers do |builder| %>
+    <%= render 'mock_correct_answer_fields', f: builder %>
+  <% end %>
+  
+</fieldset>
