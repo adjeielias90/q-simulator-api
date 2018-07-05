@@ -18,6 +18,17 @@ permit_params :name, questions_attributes: [:survey_id, :content, :_destroy], an
             f.actions
         end
 
+        show do
+            attributes_table do
+              row :question
+              table_for survey.questions.order('title ASC') do
+                column "Questions" do |question|
+                  link_to question.content, [ :admin, question ]
+                end
+              end
+            end
+        end
+
 
 
 end
