@@ -13,13 +13,13 @@ Requires Ruby 1.9.2 or later to run.
 Knowledge of usage of rails command line preffered
 
 
-Take a look at db/migrate for database table associations
-Take a look at db/schema for database definitions and schema
-Take a look at config/routes for default app routes
+  Take a look at db/migrate for database table associations
+  Take a look at db/schema for database definitions and schema
+  Take a look at config/routes for default app routes
 
-run 'rails routes' to view all available endpoints and routes.
-
-
+  run 'rails routes' to view all available endpoints and routes.
 
 
-  ......incomplete..........
+
+
+......incomplete..........
