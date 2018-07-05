@@ -1,4 +1,4 @@
-= RailsCasts Example Application
+= QnA
 
 Run these commands to try it out.
 
