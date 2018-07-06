@@ -8,6 +8,8 @@ Run these commands to try it out.
   rails s
 
   Navigate to http://localhost:3000/admin/ in case the case of localhost to access admin panel
+    email: admin@example.com
+    password: password
 
 Requires Ruby 1.9.2 or later to run.
 Knowledge of usage of rails command line preffered
